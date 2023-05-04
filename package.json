@@ -1,26 +1,26 @@
 {
-  "name": "league-of-dodge",
-  "version": "1.0.0",
-  "description": "mini-jeux sur lol",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeoSrlng/League-Of-Dodge.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LeoSrlng/League-Of-Dodge/issues"
-  },
-  "homepage": "https://github.com/LeoSrlng/League-Of-Dodge#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
-  },
-  "type": "module"
+    "name": "league-of-dodge",
+    "version": "1.0.0",
+    "description": "mini-jeux sur lol",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LeoSrlng/League-Of-Dodge.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LeoSrlng/League-Of-Dodge/issues"
+    },
+    "homepage": "https://github.com/LeoSrlng/League-Of-Dodge#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.22"
+    },
+    "type": "module"
 }

@@ -1,14 +1,15 @@
 import express from "express";
 import cors from "cors";
+// import bodyParser from "body-parser";
+import router from "./routes/routes.js";
 
 const app = express();
 
+app.use(express.static("public"));
 app.use(cors());
-
-app.get("/", (req, res) => {
-	let teste = "on passe par la";
-	res.json({ response: true, teste });
-});
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+app.use("/", router);
 
 const PORT = process.env.PORT || 8080;
 
