@@ -1,20 +1,13 @@
 import Home from "../composents/Home.jsx";
-// import Recettes from "../Recettes.jsx";
-// import DetailsRecette from "../DetailsRecette.jsx";
-// import SuggestionRecettes from "../SuggestionRecettes.jsx";
-// import Loggin from "../Loggin/Loggin.jsx";
-// import Deco from "../Loggin/Deco.jsx";
-// import Admin from "../Admin.jsx";
-// import AddRecette from "../AddRecette.jsx";
-// import ShowEditRecette from "../EditRecette.jsx";
-// import ShowSuggestions from "../showSuggestions.jsx";
-// import ShowDetailSuggestions from "../showDetailSuggestions.jsx";
+import Shuffle from "../composents/Shuffle.jsx";
+import Among from "../composents/Among.jsx";
+
 // import Erreur from "../Erreur.jsx";
 
 export const routes = [
 	{ path: "/", element: <Home /> },
-	// { path:'/recettes', element:<Recettes /> },
-	// { path:'/detailsRecette/:postId', element:<DetailsRecette /> },
+	{ path: "/Shuffle", element: <Shuffle /> },
+	{ path: "/Among/:postId", element: <Among /> },
 	// { path:'/suggestionRecettes', element:<SuggestionRecettes /> },
 	// { path:'/loggin', element:<Loggin /> },
 	// { path:'/deco', element:<Deco /> },

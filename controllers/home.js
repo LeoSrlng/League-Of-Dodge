@@ -1,5 +1,5 @@
 const HomeController = (req, res) => {
-	let teste = "on passe par le back et c'est cool";
+	let teste = "Page d'acceuil!!";
 
 	res.json({ response: true, teste });
 };
