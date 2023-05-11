@@ -9,17 +9,17 @@ const Navbar = () => {
 	const navigate = useNavigate();
 
 	const toAmong = () => {
-		axios
-			.get(`${Base_URL}/nav`)
-			.then((res) => {
-				setId(res.data.id);
-			})
-			.catch((err) => {
-				console.log(err);
-			})
-			.then((res) => {
-				navigate(`/among/${id}`);
-			});
+		// axios
+		// 	.get(`${Base_URL}/nav`)
+		// 	.then((res) => {
+		// 		setId(res.data.id);
+		// 	})
+		// 	.catch((err) => {
+		// 		console.log(err);
+		// 	})
+		// 	.then((res) => {
+		// 		navigate(`/among/${id}`);
+		// 	});
 	};
 
 	return (
